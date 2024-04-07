@@ -1,0 +1,300 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "a96c72f5-eb35-4e92-a582-ebb930587bc0": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21850612302135__a96c72f5-eb35-4e92-a582-ebb930587bc0-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Optislim_-_strawberry_banner.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-left",
+            "subheading": "Why optislim?",
+            "subheading_size": "h4",
+            "heading": "About Us",
+            "heading_size": "h0",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21850612302135__a96c72f5-eb35-4e92-a582-ebb930587bc0-image-1"
+      ],
+      "settings": {
+        "slideshow_type": "legacy",
+        "text_alignment": "center",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "image_behavior": "none",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "600px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 0,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "46aada8c-f00e-487b-aabd-8be39d298f61": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21850612302135__46aada8c-f00e-487b-aabd-8be39d298f61-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Losing weight should be easy. That’s why we developed Optislim, a brand backed by our 25-year reputation and a firm presence on pharmacy shelves today.<\/p><p>Optislim’s programs & range that consists of weight loss shakes, bars, soups, snacks & healthy meals for a Very Low-Calorie Diet (VLCD) and Low-Calorie Diet (LCD) are a clinically proven method to help people lose weight fast. These are incorporated into our easy to follow Optislim Weight Loss program designed to restrict calorie\/kilojoule intake whilst maintaining healthy nutrition.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "template--21850612302135__46aada8c-f00e-487b-aabd-8be39d298f61-text-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Optislim's Commitment to Health, Wellness, and Transformation Weight Goals",
+            "heading_size": "h2",
+            "heading_tag": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Optislim <\/strong>is one of the most successful brands in the Health & Nutrition retail category, proudly owned and operated by <strong>OptiPharm <\/strong>which has become a strong presence in the Australian health & nutrition market with over 25 years’ experience.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AboutUs1.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Optislim?",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With over 25 years’ experience in the health and beauty retail category, Optislim has worked hard to develop the best prices alongside high-quality Australian Made products. We continue to change lives and assist customers throughout their journey to better health and well-being. With a large variety of products and superior formulations to kick start your weight loss journey.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AboutUs2.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "eb8a3bec-71d3-43a5-b368-38c856590831": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21850612302135__eb8a3bec-71d3-43a5-b368-38c856590831-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have developed and manufactured our successful household brands, Optislim, <strong>OptiGold<\/strong>, <strong>OptiMan<\/strong> and <strong>iSustain <\/strong>to fulfil our mission: to make health and wellness products available for all individuals at any life stage.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "template--21850612302135__eb8a3bec-71d3-43a5-b368-38c856590831-text-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4f462edd-69af-475b-a9be-dd2e17290882": {
+      "type": "rich-text",
+      "blocks": {
+        "228812aa-321d-4e63-8908-a4f422cc8915": {
+          "type": "heading",
+          "settings": {
+            "heading": "More Questions?",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "0a0aa21d-18b4-4b20-883c-61a3ba45f3d4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you’ve got a question, we may already have covered it in our <a href=\"\/pages\/faqs\" title=\"FAQs\"><strong>FAQ's<\/strong><\/a>. If your question is order-related, or not covered in our FAQ's, drop our customer service team an email and we’ll get back to you as soon as we can.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        },
+        "365fd1d0-a9c0-4899-89ac-4063dbf6cfd9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Visit faqs page",
+            "button_link": "shopify:\/\/pages\/faqs",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "228812aa-321d-4e63-8908-a4f422cc8915",
+        "0a0aa21d-18b4-4b20-883c-61a3ba45f3d4",
+        "365fd1d0-a9c0-4899-89ac-4063dbf6cfd9"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 0,
+        "mobile_height": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a96c72f5-eb35-4e92-a582-ebb930587bc0",
+    "46aada8c-f00e-487b-aabd-8be39d298f61",
+    "image-with-text-0",
+    "image-with-text-1",
+    "eb8a3bec-71d3-43a5-b368-38c856590831",
+    "4f462edd-69af-475b-a9be-dd2e17290882",
+    "empty-space"
+  ]
+}

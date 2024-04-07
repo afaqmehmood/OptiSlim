@@ -1,0 +1,14 @@
+<script>
+  try {
+    document.addEventListener("fg-gifts:updated", async () => {
+      let scaCart = new MiniCart();
+      let cart = await fetch('/cart.js').then(async (scaRes) => {
+        return scaRes.json();
+      })
+      await fetch("/?sections=mini-cart,cart-icon-bubble,mobile-cart-icon-bubble").then(async (scaRes) => {
+        cart ["sections"] = await scaRes.json();
+      })
+      await scaCart.renderContents(cart);
+    })
+  } catch (e) {}    
+</script>

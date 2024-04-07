@@ -1,0 +1,195 @@
+{
+  "name": "t:sections.header-group.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "TRY OPTISLIM RISK FREE WITH OUR MONEY BACK GUARANTEE, LIMITED TIME ONLY!",
+            "text_on_mobile": "TRY OPTISLIM RISK FREE WITH OUR MONEY BACK GUARANTEE, LIMITED TIME ONLY!",
+            "text_size": 13,
+            "link": "shopify:\/\/collections\/shopall",
+            "link_text": ""
+          }
+        },
+        "announcement_zA7MdW": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Welcome to our store",
+            "text_on_mobile": "",
+            "text_size": 13,
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "55a87e68-3bd9-4d7e-b32c-dccb743c4aae": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "BUY 3 GET 1 FREE",
+            "text_on_mobile": "BUY 3 GET 1 FREE",
+            "text_size": 13,
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "ecfdb9ac-e5c8-4475-937c-433a4a38b1ce": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "AFTERPAY AVAILABLE",
+            "text_on_mobile": "AFTERPAY AVAILABLE",
+            "text_size": 13,
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "announcement_m8bWpF": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING OVER $75",
+            "text_on_mobile": "",
+            "text_size": 13,
+            "link": "#",
+            "link_text": "SHOP NOW"
+          }
+        },
+        "announcement_j9ag3G": {
+          "type": "announcement",
+          "settings": {
+            "text": "BUY 3 & GET 1 FREE",
+            "text_on_mobile": "",
+            "text_size": 13,
+            "link": "#",
+            "link_text": "SHOP BUNDLES"
+          }
+        },
+        "announcement_fPfnEL": {
+          "type": "announcement",
+          "settings": {
+            "text": "7 DAY REFUND POLICY",
+            "text_on_mobile": "",
+            "text_size": 13,
+            "link": "#",
+            "link_text": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "announcement_zA7MdW",
+        "55a87e68-3bd9-4d7e-b32c-dccb743c4aae",
+        "ecfdb9ac-e5c8-4475-937c-433a4a38b1ce",
+        "announcement_m8bWpF",
+        "announcement_j9ag3G",
+        "announcement_fPfnEL"
+      ],
+      "settings": {
+        "only_homepage": false,
+        "layout": "default",
+        "mobile_layout": "carousel",
+        "autorotate": false,
+        "autorotate_speed": 3,
+        "show_navigation": true,
+        "direction": "right",
+        "speed": 2.5,
+        "colors_text": "#ffffff",
+        "colors_background": "#db0032",
+        "gradient_background": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "5c10c817-e301-49a8-93bb-ba6d54db902a": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_title": "Shop Now",
+            "narrow": true,
+            "show_menu_image": true,
+            "promo_image_1": "shopify:\/\/shop_images\/49895306_2228094130790797_2760942030275215360_n.png",
+            "promo_image_ratio_1": "adapt",
+            "promo_image_position_1": "center center",
+            "promo_heading_1": "Bundle & Save",
+            "promo_text_1": "",
+            "promo_overlay_content_1": true,
+            "promo_link_1": "shopify:\/\/collections\/bundles",
+            "promo_image_ratio_2": "adapt",
+            "promo_image_position_2": "center center",
+            "promo_heading_2": "",
+            "promo_text_2": "",
+            "promo_overlay_content_2": false,
+            "promo_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "5c10c817-e301-49a8-93bb-ba6d54db902a"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/OptiSlim_Generic_Blk_-01.png",
+        "mobile_logo": "shopify:\/\/shop_images\/OptiSlim_Generic_Blk_-01.png",
+        "logo_height": 44,
+        "mobile_logo_height": 38,
+        "logo_position": "top-center",
+        "menu": "main-menu",
+        "menu_mobile": "main-menu",
+        "nav_item1": "Shop by goal",
+        "nav_label1": "Upto 60%",
+        "nav_item2": "",
+        "nav_label2": "",
+        "nav_item3": "",
+        "nav_label3": "",
+        "nav_item4": "",
+        "nav_label4": "",
+        "enable_dropdown_menu": true,
+        "show_line_separator": false,
+        "uppercase_menu_items": true,
+        "cart_icon": "cart",
+        "icon_weight": "1.7",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_sticky_header": true,
+        "show_sticky_header_scroll_up": false,
+        "enable_transparent_header": false,
+        "enable_transparent_header_collection": false,
+        "enable_transparent_header_custom": "",
+        "show_transparent_header_border": false,
+        "transparent_text_color": "#212326",
+        "enable_highlight": false,
+        "highlight_labels": "",
+        "highlight_style": "marker",
+        "mobile_logo_position": "center",
+        "colors_text": "#212326",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "colors_highlight": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 10
+      }
+    },
+    "custom_liquid_MF6Pyw": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script async defer src=\"https:\/\/tools.luckyorange.com\/core\/lo.js?site-id=9817d4bb\"><\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "custom_liquid_MF6Pyw"
+  ]
+}

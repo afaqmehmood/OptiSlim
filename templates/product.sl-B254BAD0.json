@@ -1,0 +1,719 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "a525c779-c4c7-499d-bd74-e53f7b9c9520": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-output\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false,
+            "price_size": "small"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "text_9ayaD3": {
+          "type": "text",
+          "settings": {
+            "icon": "check_mark",
+            "text": "Lose weight in 30 days or your money back",
+            "text_style": "body"
+          }
+        },
+        "text_ijbBtL": {
+          "type": "text",
+          "settings": {
+            "icon": "serving_dish",
+            "text": "Indulge in the delicious taste of our meal replacements",
+            "text_style": "body"
+          }
+        },
+        "text_TzA78Y": {
+          "type": "text",
+          "settings": {
+            "icon": "price_tag",
+            "text": "Excellent value with unbeatable prices",
+            "text_style": "body"
+          }
+        },
+        "text_m3QAM9": {
+          "type": "text",
+          "settings": {
+            "icon": "star",
+            "text": "Say goodbye to calorie counting and inconvenient meal prep",
+            "text_style": "body"
+          }
+        },
+        "price_q4TTjT": {
+          "type": "price",
+          "settings": {
+            "price_size": "large",
+            "show_badges": true,
+            "sale_badge_basis": "value"
+          }
+        },
+        "afterpay_on_site_messaging_payments_messaging_XNdzcQ": {
+          "type": "shopify:\/\/apps\/afterpay-on-site-messaging\/blocks\/payments-messaging\/f45a5524-d177-4475-bf59-281efd2215a8",
+          "settings": {
+            "text_align": "inherit",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "color": "",
+            "size": "xs",
+            "intro_text": "or",
+            "show_interest_free": true,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "circled-info-icon",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 0,
+            "margin_bottom_mobile": 0,
+            "show_lower_limit": true,
+            "show_upper_limit": true,
+            "show_if_outside_limits": true,
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
+        "0ff636fb-6f30-42b4-b667-3993d230a8c7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Description",
+            "content": "<p>{{ product.metafields.custom.additional_information | metafield_tag }}<\/p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "f8380851-34e3-4655-89fc-52676dcf6205": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "heart",
+            "heading": "Features & Benefits",
+            "content": "{{ product.metafields.custom.benefits_rich | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_x3KnBh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "check_mark",
+            "heading": "OUR GUARANTEE",
+            "content": "<p>30-Day Money Back Guarantee – Optislim Terms and Conditions<\/p><p>With over 25+ years of experience, we are so confident in our products that we offer a 30-day money-back guarantee if you do not lose weight while using our ranges. The 30-Day Money Back Guarantee only applies to the following products purchased on the Optislim website (www.optislim.com.au):<br\/>- Very Low-Calorie Diet (VLCD) Shakes, Bars and Soups<br\/>- Optiman For Him shakes<br\/>- Optislim For Her shakes<\/p><p>A maximum of one product item can be refunded per customer (excluding shipping price). The 30-day period begins when your tracking says your order has been delivered. Your order number will need to be provided to receive the refund. Refunds will only be placed using the same method of payment that the order was bought using. You must contact our customer service team within 30 days of the product being delivered. The 30-day money-back guarantee is only available to customers in Australia and NZ. Nothing in our terms attempts to modify or exclude any of your rights under the Australian Consumer Law.<\/p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_dhcEjJ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "clipboard",
+            "heading": "DIRECTIONS",
+            "content": "{{ product.metafields.custom.directions1 | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 20,
+            "show_inventory_transfer": true,
+            "color_scheme": "accent-3"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "db60b87c-36d0-4554-9f47-c8b6a44bea52": {
+          "type": "nutrition",
+          "settings": {
+            "heading": "Nutrition info",
+            "label_left": "Typical values",
+            "label_right": "Qty Per Serving",
+            "content": "{{ product.metafields.custom.nutritional_information | metafield_tag }}",
+            "content_extra": "",
+            "hide_block_if": false
+          }
+        },
+        "f4054ed5-6adf-49bb-be37-6dbeaf022964": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "Nutritional Information",
+            "content": "<p>{{ product.metafields.custom.nutritional_information_html.value }}<\/p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "carrot",
+            "heading": "Ingredients",
+            "content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "6b384dec-7151-415f-aecc-4e9640031bbe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "carrot",
+            "heading": "Ingredients",
+            "content": "{{ product.metafields.custom.ingredients_rich_text | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "182bbcbe-4fac-47ba-b0b0-b63b036c30cf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Allegrens",
+            "content": "{{ product.metafields.custom.allergens | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        }
+      },
+      "block_order": [
+        "a525c779-c4c7-499d-bd74-e53f7b9c9520",
+        "title",
+        "description",
+        "text_9ayaD3",
+        "text_ijbBtL",
+        "text_TzA78Y",
+        "text_m3QAM9",
+        "price_q4TTjT",
+        "afterpay_on_site_messaging_payments_messaging_XNdzcQ",
+        "buy_buttons",
+        "variant_picker",
+        "countdown",
+        "0ff636fb-6f30-42b4-b667-3993d230a8c7",
+        "f8380851-34e3-4655-89fc-52676dcf6205",
+        "collapsible_tab_x3KnBh",
+        "collapsible_tab_dhcEjJ",
+        "inventory_status",
+        "related_buttons",
+        "sticky_cart",
+        "db60b87c-36d0-4554-9f47-c8b6a44bea52",
+        "f4054ed5-6adf-49bb-be37-6dbeaf022964",
+        "collapsible_tab-1",
+        "6b384dec-7151-415f-aecc-4e9640031bbe",
+        "182bbcbe-4fac-47ba-b0b0-b63b036c30cf"
+      ],
+      "custom_css": [
+        ".product__tax {display: none;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "small",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "square",
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "wide",
+        "show_mobile_thumbnails": true,
+        "padding_top": 20,
+        "padding_bottom": 72
+      }
+    },
+    "rich_text_k3LxNt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_knmG4A": {
+          "type": "heading",
+          "settings": {
+            "heading": "AS FEATURED IN",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_knmG4A"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "scrolling_promotion_N4iEYy": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image_gYBeDV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2560px-9news-logo_svg.png",
+            "height": 32,
+            "link": ""
+          }
+        },
+        "image_wpKEE9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2560px-Sydney_Morning_Herald_logo_svg.png",
+            "height": 32,
+            "link": ""
+          }
+        },
+        "image_U7CTLz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7NEWS_Logo_RED_RGB.png",
+            "height": 32,
+            "link": ""
+          }
+        },
+        "image_NyCdbW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womans-day-magazine-logo.webp",
+            "height": 40,
+            "link": ""
+          }
+        },
+        "image_BjNQ6U": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_1.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "image_MtdpTa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-print.png",
+            "height": 48,
+            "link": ""
+          }
+        },
+        "image_kAeVHz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/livestrong-com-logo-vector.png",
+            "height": 136,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gYBeDV",
+        "image_wpKEE9",
+        "image_U7CTLz",
+        "image_NyCdbW",
+        "image_BjNQ6U",
+        "image_MtdpTa",
+        "image_kAeVHz"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "9d06fada-7da7-4b0e-ac1a-24439c03516e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21850612629815__9d06fada-7da7-4b0e-ac1a-24439c03516e-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Optislim_Female_2_7ed4fa8b-4f33-4222-be50-b6b25e0d6d9e.jpg",
+            "title": "MEAL REPLACEMENT",
+            "title_size": "h4",
+            "text": "<p>Optislim is designed to replace your meals with nutritious & delicious, calorie-controlled shakes, soups and bars, promoting weight loss through portion control.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "edb04555-934c-4d9e-80ad-eb0f1c875f4d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Optiman_1_aaea1e7c-7cc7-4a28-af31-da7e837f6313.jpg",
+            "title": "LOW-CALORIE",
+            "title_size": "h4",
+            "text": "<p>Each Optislim meal contains only 200-250 calories, making it easy to track your calorie intake and stay within your weight loss goals.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "1a50e648-3b25-4e3f-8414-c9654c939d05": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Optislim_Female_1_838172c1-eb8e-43a5-aa48-4c2b52715453.jpg",
+            "title": "HUNGER CONTROL",
+            "title_size": "h4",
+            "text": "<p>Optislim is high in protein and fibre, helping you feel full and satisfied while also providing essential nutrients to support a healthy metabolism. Also offering 100-calorie guilt-free cookies for your cravings.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "3a0616a3-a5f0-4e56-ac38-72e5776ab9a4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Optiman_3_4c55c662-2cc9-4313-aa5d-bc3c5d0744c0.jpg",
+            "title": "CONVENIENCE",
+            "title_size": "h4",
+            "text": "<p>Shakes, soups and bars are quick and easy to prepare, making it convenient for those with a busy lifestyle to stay on track with their weight loss journey.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21850612629815__9d06fada-7da7-4b0e-ac1a-24439c03516e-column-1",
+        "edb04555-934c-4d9e-80ad-eb0f1c875f4d",
+        "1a50e648-3b25-4e3f-8414-c9654c939d05",
+        "3a0616a3-a5f0-4e56-ac38-72e5776ab9a4"
+      ],
+      "settings": {
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "text_alignment": "center",
+        "show_divider": false,
+        "image_width": "full",
+        "columns_desktop": 4,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "center",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e143f3c3-5e78-4e4f-991d-3fcd06750b58": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Optislim_Before-and-After_Banner_1440x570px_No-Button.jpg",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "show_divider": false,
+        "heading": "Recently Viewed",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1702954372a08d7653": {
+      "type": "apps",
+      "blocks": {
+        "a97bdaef-efb6-4773-a2bf-62b5d95b2c45": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "disabled": true,
+          "settings": {
+            "star": "#000000",
+            "review_type": "product",
+            "reviews_shown": 20,
+            "header_bg_colour": "#000000",
+            "header_colour": "#ffffff",
+            "header_star_colour": "#ffffff",
+            "heading_text_colour": "#0e1311",
+            "heading_font": "helvetica_n4",
+            "body_text_colour": "#0e1311",
+            "badge_icon_colour": "#0e1311",
+            "badge_text_colour": "#0e1311",
+            "bg_start_colour": "#ffffff",
+            "bg_end_colour": "#ffffff",
+            "item_border_width": "0px",
+            "item_border_colour": "#000000",
+            "item_border_radius": "0px",
+            "item_shadow_size": "10px",
+            "item_shadow_colour": "#000000",
+            "enable_rich_snippets": false,
+            "disable_same_customer": false,
+            "logo_colour": "var(--logo-inverted)"
+          }
+        },
+        "ab0959da-88bb-415e-91a8-4863f090a4c2": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-nuggets\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": "",
+            "is_product_specific": true,
+            "tags": "",
+            "branch": ""
+          }
+        },
+        "75b73c36-2dce-4798-af29-af3f185dd406": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#000000",
+            "review_type": "product_review,questions",
+            "per_page": 8,
+            "primary_btn_bg_color": "#000000",
+            "primary_btn_border_color": "#000000",
+            "primary_btn_text_color": "#ffffff",
+            "secondary_btn_border_color": "#000000",
+            "secondary_btn_text_color": "#000000",
+            "border_color": "#000000",
+            "heading_text_color": "#000000",
+            "heading_font": "helvetica_n4",
+            "body_text_color": "#000000",
+            "badge_icon_color": "#000000",
+            "badge_text_color": "#000000",
+            "enable_rich_snippets": true,
+            "show_location": true,
+            "show_tab_selector": false,
+            "show_dates": true,
+            "show_avatar": true,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "capitalise_headers": false,
+            "capitalise_buttons": false,
+            "show_review_title": false,
+            "default_sort": "date_desc"
+          }
+        }
+      },
+      "block_order": [
+        "a97bdaef-efb6-4773-a2bf-62b5d95b2c45",
+        "ab0959da-88bb-415e-91a8-4863f090a4c2",
+        "75b73c36-2dce-4798-af29-af3f185dd406"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bb7c2117-b25a-4ff1-be90-7989fb0c0761": {
+      "type": "faq",
+      "blocks": {
+        "template--21850612629815__bb7c2117-b25a-4ff1-be90-7989fb0c0761-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "How to use?",
+            "text": "<p>Replace up to two meals per day and have a well-balanced third meal and snacks. Drink an additional minimum of 2 litres of water per day.<\/p><p><strong>Please be advised: <\/strong><br\/>The For Her Shakes should not be used as a total diet replacement. It is formulated as a Low-Calorie Diet (LCD)to be used in conjunction with regular healthy meals.<\/p>"
+          }
+        },
+        "template--21850612629815__bb7c2117-b25a-4ff1-be90-7989fb0c0761-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "How much weight will I lose?",
+            "text": "<p>It’s important to remember that weight loss varies from person to person depending on many factors such as start weight, age, metabolism, if you’re doing exercise, how many meals you’re replacing and if you have any medical conditions.<\/p><p>Generally, when you are on the Optislim meal replacement program, you can expect to lose about 1-1.5kg a week, more or less depending on the above factors.<\/p>"
+          }
+        },
+        "9a900d27-6340-48aa-8083-84d3aae9bcfe": {
+          "type": "question",
+          "settings": {
+            "title": "How many meals should I replace?",
+            "text": "<p>Our Optislim VLCD range is flexible, there are three phases to choose from to suit your weight loss goals.<\/p><ul><li>Rapid Weight Loss (Replace 3 meals a day)<\/li><li>Steady Weight Loss (Replace 2 meals a day)<\/li><li>Easy Maintenance (Replace 1 meal a day)<\/li><\/ul>"
+          }
+        },
+        "904aeb21-fd89-46a7-84ae-f3ee8c203d1d": {
+          "type": "question",
+          "settings": {
+            "title": "How long can I be on the program for?",
+            "text": "<p>Our Optislim VLCD range is quite flexible where you can replace a 1, 2 or 3 meals per day. If you are replacing 1-2 meals per day, you can continue on this phase for as long as you need to. However, if you are replacing 3 meals, keep in mind that this phase is designed to produce rapid weight loss for people with a BMI greater than 30. We recommend that this phase is followed no longer than 3 weeks without medical supervision and a maximum of 12 weeks under medical supervision.<\/p>"
+          }
+        },
+        "b83ae1b1-dd50-4086-a529-9b5b902d2da5": {
+          "type": "question",
+          "settings": {
+            "title": "Can I have coffee or tea on the program?",
+            "text": "<p>It is okay to have coffee or tea while you are on the program, however, it is important to remember that if you are incorporating it into your diet you are also adding calories so it is best to have it in moderation. Try having no more than 2 a day.<\/p><p><em>There are also few ways that you can reduce the amount of calories in coffee:<\/em><\/p><ul><li>Reducing the amount of sugar and milk that you have<\/li><li>Using skim milk instead of full cream<\/li><li>Using a sweetener such as ‘Equal’ or ‘Sugarine’ instead of sugar<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21850612629815__bb7c2117-b25a-4ff1-be90-7989fb0c0761-question-1",
+        "template--21850612629815__bb7c2117-b25a-4ff1-be90-7989fb0c0761-question-2",
+        "9a900d27-6340-48aa-8083-84d3aae9bcfe",
+        "904aeb21-fd89-46a7-84ae-f3ee8c203d1d",
+        "b83ae1b1-dd50-4086-a529-9b5b902d2da5"
+      ],
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4c650ebf-72e3-428e-8603-32095344c7f7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\n  var classname = document.getElementsByClassName(\"product-form__submit button button--full-width\");\nvar addToCart = function() {\n_learnq.push(['track', 'Added to Cart', item]);\n}; for (var i = 0; i < classname.length; i++) {\nclassname[i].addEventListener('click', addToCart, false);\n}\n<\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_k3LxNt",
+    "scrolling_promotion_N4iEYy",
+    "9d06fada-7da7-4b0e-ac1a-24439c03516e",
+    "e143f3c3-5e78-4e4f-991d-3fcd06750b58",
+    "product-recommendations",
+    "recently-viewed-products",
+    "1702954372a08d7653",
+    "bb7c2117-b25a-4ff1-be90-7989fb0c0761",
+    "4c650ebf-72e3-428e-8603-32095344c7f7"
+  ]
+}

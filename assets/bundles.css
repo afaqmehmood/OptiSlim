@@ -1,0 +1,83 @@
+/* Change the layout format of the bundles widget from flex to grid */
+
+@media screen and (min-width: 768px) {
+  .bndlr-mnm-selected-products, .bndlr-mnm-available-products {
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .bndlr-mnm-selected-products .bndlr-product {
+    max-width: 230px !important;
+  }
+}
+
+/* The app puts a weird outline around the remove from bundle buttons, let's remove that */
+.bndlr-close::after, .bndlr-close::before {
+  outline: 0 !important;
+}
+
+/* Let's style the bundle */
+
+/* Remove the border */
+.bndlr-product {
+  border: 0 !important;
+  padding: 0 !important;
+  background: #f1f1f1;
+  justify-content: space-between !important;
+  box-shadow: none !important;
+}
+.bndlr-products-container {
+  padding: 0 !important;
+}
+
+/* Remove space under image */
+.bndlr-product-image-url {
+  margin-bottom: 0 !important;
+}
+
+/* Remove plus sign between bundle products */
+.bndlr-break-plus-signs .bndlr-product:not(:last-of-type)::after {
+  display: none !important;
+}
+
+.bndlr-product-title {
+  margin-left: .5rem;
+  font-size: 14px;
+}
+
+.bndlr-mnm-second-container .bndlr-product-qn-container {
+  padding: .5rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .bndlr-product {
+    max-width: 100% !important;
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+  .bndlr-mnm-second-container .bndlr-product {
+    padding: .5rem !important;
+  }
+  .bndlr-product-image-url {
+    display: none !important;
+  }
+  .bndlr-mnm-available-products, .bndlr-sectioned-available-products {
+    flex-direction: column !important;
+  }
+  .bndlr-products-container, .bndlr-inner-products-container {
+    display: block !important;
+  }
+  .bndlr-bottom-pusher, .bndlr-product-price-per-unit {
+    display: none !important;
+  }
+  .bndlr-add-to-bundle {
+    margin: 0 !important;
+    width: 120px !important;
+  }
+  .bndlr-product-title {
+    margin-left: .5rem;
+  }
+  .bndlr-mnm-selected-products .bndlr-product {
+    max-width: 100% !important;
+  }
+}

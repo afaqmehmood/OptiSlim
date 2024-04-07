@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "show_vendor": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "1068c493-0d14-4fc1-9d08-9863ec9faac8": {
+          "type": "free_shipping",
+          "settings": {
+            "minimum_amount": "70"
+          }
+        },
+        "subtotal_3nFf4k": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "1068c493-0d14-4fc1-9d08-9863ec9faac8",
+        "subtotal_3nFf4k",
+        "buttons"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_cart_note": false,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_UKL4pE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_W47iQP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lose Weight In 30 Days Or Your Money Back!",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_W47iQP"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "shipping-calculator": {
+      "type": "shipping-calculator",
+      "disabled": true,
+      "settings": {
+        "default_country": "United States",
+        "secondary_background": false,
+        "heading": "Estimate Shipping",
+        "heading_size": "h3",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_3xVzjz": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "accessories",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "RECOMMENDED PRODUCTS",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "enable_image_fill": false,
+        "show_secondary_image": false,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "rich_text_UKL4pE",
+    "shipping-calculator",
+    "featured_collection_3xVzjz"
+  ]
+}

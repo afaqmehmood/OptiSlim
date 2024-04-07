@@ -1,0 +1,363 @@
+{%- assign text_direction = 'localization.text_direction_trigger' | t | downcase -%}
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}"
+  {%- if text_direction == 'rtl' %} dir="rtl"{% endif -%}
+>
+  <head>
+<!-- Start of Shoplift scripts -->
+{% render 'shoplift' %}
+<!-- End of Shoplift scripts -->
+
+ {%- render 'ecom_header' -%}
+{% include 'booster-seo' %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="">
+   {% assign full_url = request.host | append: request.path | replace:'collections/collections', 'collections'  %}
+    <link rel="canonical" href="{{ canonical_url  }}" />
+    {% comment %}
+    <link rel="canonical" href="{{ full_url | remove:'optislim.com.au/' | remove:'collections/bundles/products/' | remove:'shopall/products/collections/' | remove:'collections/shopall/products/'  }}">
+   {% endcomment %}
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+
+    {%- if settings.favicon != blank -%}
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {%- endif -%}
+
+    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
+      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    {%- endunless -%}
+
+    {% comment %}<title>
+      {{ page_title }}
+      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+    </title>{% endcomment %}
+
+    {%- if page_description -%}
+      {% comment %}<meta name="description" content="{{ page_description | escape }}">{% endcomment %}
+    {%- endif -%}
+
+    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+" alt="Placeholder" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 96vw; height: 96vh; max-width: 99vw; max-height: 99vh;">
+
+    {% render 'meta-tags' %}
+
+    {% unless template contains 'cart' or template contains 'customer' %}
+      {{ 'prefetch.js' | asset_url | script_tag }}
+    {% endunless %}
+
+
+    <script src="{{ 'vendor-v4.js' | asset_url | split: '?' | first }}" defer="defer"></script>
+    <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+
+    {{ content_for_header }}
+
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
+
+    {%- liquid
+      render 'css-variables'
+      echo 'base.css' | asset_url | stylesheet_tag: preload: true
+      
+      if text_direction == 'rtl'
+        echo 'rtl.css' | asset_url | stylesheet_tag
+      endif
+    -%}
+    <style>
+    @media screen and (min-width: 992px) {
+      .banner-desktop-img {
+        display: block;
+      }
+      .banner-mobile-img {
+        display: none;
+      }
+      }
+    @media screen and (max-width: 992px) {
+      .banner-desktop-img {
+        display: none;
+      }
+      .banner-mobile-img {
+        display: block;
+      }
+    }
+    </style>
+    {%- if product -%}
+      <script src="{{ 'custom.js' | asset_url }}" defer></script>
+
+      {{ 'bundles.css' | asset_url | stylesheet_tag }}
+
+      {%- unless product.handle == 'shakes-starter-pack-free-shaker' -%}
+        <script src="{{ 'bundles.js' | asset_url }}" defer></script>
+      {%- endunless -%}
+        {%- if template contains 'sectioned-bundles' -%}
+          <style>
+            .bndlr-bundle-title, .bndlr-bundle-description {
+              display: none !important;
+            }
+            .product__media-wrapper {
+              display: none !important;
+            }
+            .product.grid {
+              justify-content: center !important;
+            }
+            .product__info-wrapper {
+              max-width: 1200px !important;
+            }
+            .product-form {
+              max-width: 640px;
+              margin: auto !important;
+            }
+            .bndlr-add-to-sectioned-bundle {
+              margin: 0 !important;
+              width: 100% !important;
+              font-size: 16px !important;
+            }
+            .product__info-container {
+              padding: 0;
+            }
+            .product--small:not(.product--no-media) .product__info-wrapper {
+              max-width: 1300px !important;
+            }
+            @media screen and (max-width: 768px) {
+              .bndlr-add-to-sectioned-bundle {
+                max-width: 140px !important;
+              }
+            }
+            @media screen and (min-width: 768px) {
+              .bndlr-product-qn-container {
+                padding-bottom: .5rem;
+              }
+            }
+          </style>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- unless settings.type_body_font.system? -%}
+      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+    {%- endunless -%}
+    {%- unless settings.type_header_font.system? -%}
+      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+    {%- endunless -%}
+    
+    {%- if settings.predictive_search_enabled -%}
+      <link rel="stylesheet" href="{{ 'component-predictive-search.css' | asset_url }}" media="print" onload="this.media='all'">
+    {%- endif -%}
+    {%- if settings.quick_view_enabled -%}
+      <link rel="stylesheet" href="{{ 'component-quick-view.css' | asset_url }}" media="print" onload="this.media='all'">
+    {%- endif -%}
+    {%- if settings.color_swatches_enabled -%}
+      <link rel="stylesheet" href="{{ 'component-color-swatches.css' | asset_url }}" media="print" onload="this.media='all'">
+    {%- endif -%}
+    {%- if linklists.gift-wrapping.links != blank and linklists.gift-wrapping.links.first.type == 'product_link' -%}
+      <link rel="stylesheet" href="{{ 'component-gift-wrapping.css' | asset_url }}" media="print" onload="this.media='all'">
+      <noscript>{{ 'component-gift-wrapping.css' | asset_url | stylesheet_tag }}</noscript>
+    {%- endif -%}
+
+    {%- render 'js-variables' -%}
+    <meta name="google-site-verification" content="iwmehKQrDMS8rnpS5YPQqO0yIvljTR95B-7MRbWD0Fs"/>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1063148188"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-1063148188');
+  </script>
+  <script>
+    gtag('event', 'page_view', {
+      'send_to': 'AW-1063148188',
+      'dynx_itemid': 'replace with value',
+      'dynx_itemid2': 'replace with value',
+      'dynx_pagetype': 'replace with value',
+      'ecomm_pagetype': 'replace with value',
+      'ecomm_prodid': 'replace with value'
+    });
+  </script>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1063148188"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-1063148188');
+  </script>
+  <script>
+    gtag('event', 'page_view', {
+      'send_to': 'AW-1063148188',
+      'dynx_itemid': 'replace with value',
+      'dynx_itemid2': 'replace with value',
+      'dynx_pagetype': 'replace with value',
+      'ecomm_pagetype': 'replace with value',
+      'ecomm_prodid': 'replace with value'
+    });
+  </script>
+    <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+ var dataLayer_content = {"pagePostType":"frontpage","pagePostType2":"single-page","pagePostAuthor":"admin","customerTotalOrders":0,"customerTotalOrderValue":"0.00","customerFirstName":"","customerLastName":"","customerBillingFirstName":"","customerBillingLastName":"","customerBillingCompany":"","customerBillingAddress1":"","customerBillingAddress2":"","customerBillingCity":"","customerBillingState":"","customerBillingPostcode":"","customerBillingCountry":"","customerBillingEmail":"","customerBillingEmailHash":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","customerBillingPhone":"","customerShippingFirstName":"","customerShippingLastName":"","customerShippingCompany":"","customerShippingAddress1":"","customerShippingAddress2":"","customerShippingCity":"","customerShippingState":"","customerShippingPostcode":"","customerShippingCountry":"","cartContent":{"totals":{"applied_coupons":[],"discount_total":0,"subtotal":0,"total":0},"items":[]}};
+ dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W982DMK');
+</script>
+<meta name="google-site-verification" content="GZizaKxK8SiQzC7QfsygNjrAzezoWuTf97PUO0JFTGA" />
+  {% include 'kart_discount' %}
+  
+   {% comment %}
+    <style>
+      .product__description.rte { 
+    clear: both;
+}
+      
+      .bndlr-mnm-add-to-cart-wrapper {
+    margin: 10px 0px;
+}
+    @media(max-width:767px){
+      .bndlr-product-title { font-size:11px;}
+      .bndlr-add-to-bundle-container {max-height: 30px;}
+      .bndlr-inner-products-container > div:first-child {
+    display: block !important;
+}
+
+.bndlr-product.bndlr-mix-and-match {
+    display: block !important;   width: 46%;
+}
+
+.bndlr-product {
+    max-width: 50% !important;
+    float: left !important;
+}
+
+.bndlr-mnm-second-container {
+    float: left !important;
+    width: 100%;
+}
+
+summary {
+    width: 100%;
+    display: block;
+}
+
+.accordion {
+    float: left;
+    width: 100%;
+}
+ 
+
+.bndlr-add-to-bundle {
+    line-height: 10px; width:100% !important;
+}
+    }
+    @media(max-width:550px){
+      .mini-cart__footer .button-container .button {  }
+    }
+      @media(max-width:750px){
+        .cart-drawer { width:calc(100% - 0%) !important; }
+      }
+  </style> 
+      {% endcomment %}
+  </head>
+
+  <body class="template-{{ request.page_type }}{% if request.design_mode %} shopify-design-mode{% endif %}"
+    {%- if settings.image_zoom_effect_enabled %} data-animate-image{% endif -%}
+    {%- if settings.image_loading_bar_enabled %} data-lazy-image{% endif -%}
+    {%- if settings.heading_capitalize %} data-heading-capitalize{% endif -%}
+    {%- if settings.heading_center %} data-heading-center{% endif -%}
+    {%- if settings.price_superscript %} data-price-superscript{% endif -%}
+    {%- if settings.button_corner_radius > 0 %} data-button-round{% endif -%}
+  >
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W982DMK" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+    <a class="skip-to-content-link button button--small visually-hidden" href="#MainContent">
+      {{ "accessibility.skip_to_text" | t }}
+    </a>
+
+    {% render 'transition-cover' %}
+
+    <div class="transition-body">
+      {% sections 'header-group' %}
+
+      <div class="transition-content">
+        <main id="MainContent" class="content-for-layout focus-none shopify-section" role="main" tabindex="-1">
+          {% capture ICART_FULL_PAGE_LAYOUT %}{{ content_for_layout }}{% endcapture %}{% include 'icart-variables', ICART_FULL_PAGE_LAYOUT: ICART_FULL_PAGE_LAYOUT %}
+        </main>
+
+        <div class="page-width">
+          {% assign col_desc = collection.description | split:'<split></split>' %}
+          {% assign split_desc = col_desc[1] | split:'<readmore></readmore>' %}
+          <div class="collection_desc">
+             {{ col_desc[0] }}
+{% if col_desc[1] != blank %}
+            <span id="dots"></span>
+<span id="more" style="display:none">
+           {{ col_desc[1] }}
+            </span>
+<button id="myBtn" onclick="myFunction()">Read More</button>
+<script> 
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+            {% endif %}
+          </div>
+           
+        </div>
+        
+
+        {% sections 'footer-group' %}
+      </div>
+    </div>
+
+ {% sections 'overlay-group' %}
+
+    <ul hidden>
+      <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
+    </ul>
+    <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
+      <symbol id="icon-cart" fill="none" viewbox="0 0 18 19">
+        <path d="M3.09333 5.87954L16.2853 5.87945V5.87945C16.3948 5.8795 16.4836 5.96831 16.4836 6.07785V11.4909C16.4836 11.974 16.1363 12.389 15.6603 12.4714C11.3279 13.2209 9.49656 13.2033 5.25251 13.9258C4.68216 14.0229 4.14294 13.6285 4.0774 13.0537C3.77443 10.3963 2.99795 3.58502 2.88887 2.62142C2.75288 1.42015 0.905376 1.51528 0.283581 1.51478" stroke="currentColor"/>
+        <path d="M13.3143 16.8554C13.3143 17.6005 13.9183 18.2045 14.6634 18.2045C15.4085 18.2045 16.0125 17.6005 16.0125 16.8554C16.0125 16.1104 15.4085 15.5063 14.6634 15.5063C13.9183 15.5063 13.3143 16.1104 13.3143 16.8554Z" fill="currentColor"/>
+        <path d="M3.72831 16.8554C3.72831 17.6005 4.33233 18.2045 5.07741 18.2045C5.8225 18.2045 6.42651 17.6005 6.42651 16.8554C6.42651 16.1104 5.8225 15.5063 5.07741 15.5063C4.33233 15.5063 3.72831 16.1104 3.72831 16.8554Z" fill="currentColor"/>
+      </symbol>
+    </svg>
+
+    {%- if settings.image_loading_bar_enabled %}
+      <script src="{{ 'lazyimage.js' | asset_url }}" async></script>
+    {% endif -%}
+    {%- if settings.predictive_search_enabled -%}
+      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+    {%- if settings.quick_view_enabled -%}
+      <script src="{{ 'quick-view.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+    {%- if settings.color_swatches_enabled -%}
+      <script src="{{ 'color-swatches.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+    {%- if linklists.gift-wrapping.links != blank and linklists.gift-wrapping.links.first.type == 'product_link' -%}
+      <script src="{{ 'gift-wrapping.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+  {{ '//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23' | script_tag }}
+  {% include 'revy-discounts-script' %}
+  {% unless template contains 'cart' or template contains 'customer' %}
+{{ 'footer.js' | asset_url | script_tag | replace: 'src', 'defer src' }}
+{% endunless %}
+
+{%- render "ecom_footer"-%}
+{% render 'freegifts-snippet' %} 
+
+</body>
+</html>
+

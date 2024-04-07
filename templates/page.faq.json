@@ -1,0 +1,466 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "image-banner-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQs",
+            "heading_size": "h0",
+            "heading_tag": "h1"
+          }
+        },
+        "image-banner-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Answers to Your Questions<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image-banner-0",
+        "image-banner-1"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "400px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 48,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "question-0": {
+          "type": "question",
+          "settings": {
+            "title": "I'm missing a product from my order, what do I do?",
+            "text": "<p>We are sorry to hear this, please contact our customer service team at <a href=\"mailto:customerservice@optipharm.com.au\"><em>customerservice@optipharm.com.au <\/em><\/a>supplying an image of what you have received. Please remember to include your details and order number for our team to refer back to.<\/p>"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Can I make changes to my order?",
+            "text": "<p>Yes, you can, the only way this would be possible is if your order hasn’t been despatched. We would recommend calling us on <a href=\"tel:1800 882 408\"><em>1800 882 408<\/em><\/a>, to make the change. However, please keep in mind that this is subject to what we have in stock as what you are requesting may not be available at the time of purchase.<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "What can I do if I believe I have received a faulty product?",
+            "text": "<p>We would like to resolve this and make things right. Please email us at <a href=\"mailto:customerservice@optipharm.com.au\" target=\"_blank\"><em>customerservice@optipharm.com.au<\/em><\/a> supplying your order or invoice number. Once we have received the enquiry, our team will be able to resolve this issue and will take appropriate action if applicable.<\/p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "title": "I’ve received the wrong product, please help?",
+            "text": "<p>We are sorry to hear that you have received the wrong product. Contact our customer service team on <a href=\"tel:1800 882 408\">1800 882 408 <\/a>or email us at <a href=\"mailto:customerservice@optipharm.com.au\"><em>customerservice@optipharm.com.au<\/em><\/a>, please state your concern and specify the error made on your order. Ensure to have your order details ready so we can look at the invoice and rectify this.<\/p>"
+          }
+        },
+        "question_Vkkq7m": {
+          "type": "question",
+          "settings": {
+            "title": "How does the 30 day money back guarantee work?",
+            "text": "<p>With over 25+ years of experience, we are so confident in our products that we offer a 30-day money-back guarantee if you do not lose weight while using our ranges. The 30-Day Money Back Guarantee only applies to the following products purchased on the Optislim website (www.optislim.com.au):<br\/>- Very Low-Calorie Diet (VLCD) Shakes, Bars and Soups<br\/>- Optiman For Him shakes<br\/>- Optislim For Her shakes<br\/>A maximum of one product item can be refunded per customer (excluding shipping price). The 30-day period begins when your tracking says your order has been delivered. Your order number will need to be provided to receive the refund. Refunds will only be placed using the same method of payment that the order was bought using. You must contact our customer service team within 30 days of the product being delivered. The 30-day money-back guarantee is only available to customers in Australia and NZ. Nothing in our terms attempts to modify or exclude any of your rights under the Australian Consumer Law.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-0",
+        "question-1",
+        "question-2",
+        "question-3",
+        "question_Vkkq7m"
+      ],
+      "settings": {
+        "narrow": true,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Order Information",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "87127297-6a89-4ab7-b642-632ce4c3f926": {
+      "type": "faq",
+      "blocks": {
+        "e004a2c2-1b69-432b-8b10-b4abd54183b6": {
+          "type": "question",
+          "settings": {
+            "title": "Am I applicable for free shipping?",
+            "text": "<p>Free Standard Shipping is available Aus Wide when you spend $70 or over. <\/p><p>Standard shipping is approximately 2-4 BUSINESS DAYS. Whilst Express Shipping is 1-3 BUSINESS DAYS. We use Australia Post for all our orders.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e004a2c2-1b69-432b-8b10-b4abd54183b6"
+      ],
+      "settings": {
+        "narrow": true,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Shipping",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2e21c245-3d72-49bb-b83a-71c049fe5ddc": {
+      "type": "faq",
+      "blocks": {
+        "58e05ed7-0753-440d-a4f7-e1a48eb5fdf1": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use the products while pregnant or breastfeeding?",
+            "text": "<p>It is recommended that you wait until you have finished breast feeding before commencing the Optislim Program. Rest assured, the Optislim meal replacements contain no harmful ingredients, the only concern, is the restriction of calories and certain foods as you try to lose weight. Breast feeding women require a range of foods and nutrients to produce a good quality and quantity of breast milk.<\/p><p>In saying this, our recommendation is cautionary and does not account for your individual circumstances. It is further recommended to see your Healthcare professional for any advice before commencing any weight loss program regarding the appropriate time to commence the program.<\/p>"
+          }
+        },
+        "ebf646b2-8f65-4a73-8231-984ecd645f25": {
+          "type": "question",
+          "settings": {
+            "title": "Do the products contain Gluten?",
+            "text": "<p>Please be advised the majority of the Optislim product range does contain  gluten. The only varieties available in our range that do not contain gluten:<\/p><ul><li>Optislim VLCD & LCD Soup range – Chicken, Tomato and Pumpkin<\/li><li>Healthy Option Meals – Beef Stroganoff<\/li><li>Optislim Platinum Plus Shakes – Chocolate and Vanilla<\/li><li>Optislim for Her Premium Shakes – Chocolate, Vanilla, Coffee and Caramel<\/li><li>Optislim Optiman Premium Shakes – Caramel, Chocolate, Coffee and Vanilla<\/li><\/ul>"
+          }
+        },
+        "cc3e0a47-9801-4f76-b41c-811be51a9e79": {
+          "type": "question",
+          "settings": {
+            "title": "Do the products contain Lactose?",
+            "text": "<p>There is only a small amount of lactose in the sachets. The amount for each is approximately the same as 1\/3 of the lactose found in 1 glass of milk.<\/p><p>Depending on how crucial your current medical status is in relation to your lactose intolerability, you may still able to consume our Shakes.<br\/>Please feel free to contact our customer service team if you have would like the exact amount of lactose in any of our products.<\/p>"
+          }
+        },
+        "e9e7a88f-2847-4ffe-a830-cfa07a0cb872": {
+          "type": "question",
+          "settings": {
+            "title": "Are the products vegetarian?",
+            "text": "<p>The majority of Optislim products are suitable for vegetarians that being lacto or ovo.<br\/>The only Optislim products that are not suitable for vegetarians is the Chicken soup and the following Healthy Option Meals below:<\/p><p>Beef Stroganoff, Chunky Beef & Potato hotpot, Butter Chicken, Beef Tomato & Ancient Grain Soup, Chicken & Vegetable Soup<\/p>"
+          }
+        },
+        "d2361cfa-e314-4c88-9bd5-7d5b27ec1670": {
+          "type": "question",
+          "settings": {
+            "title": "Are the products Halal certified?",
+            "text": "<p>Most of our range is Halal certified with the exclusion of our Optislim Bars, Optislim Healthy option meals and the Detox Products. <\/p><p>Please see the following Optislim products below that are Halal certified:<\/p><ul><li>Optislim Life LCD Shakes – All flavours<\/li><li>Optislim Life Soups – All flavours<\/li><li>Optislim Classic VLCD Shakes –All flavours<\/li><li>Optislim Platinum VLCD Shakes – All flavours<\/li><li>Optislim VLCD Soups – All flavours<\/li><li>Optislim Platinum Plus – All flavours<\/li><li>Optiman – All flavours<\/li><\/ul>"
+          }
+        },
+        "fe1ed208-2840-4573-8a43-a2ad9d6f7b63": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use the products if I have a medical condition or are taking medication?",
+            "text": "<p>If you have any medical conditions or are taking any medication, we recommend that you seek advice from your healthcare professional before commencing the program. Rest assured, the products themselves are safe to use however various factors need to be considered when undertaking a VLCD Program.<\/p>"
+          }
+        },
+        "539e8a4a-316f-4bd4-a3f5-8f3a16b3a1d6": {
+          "type": "question",
+          "settings": {
+            "title": "How do you use Optislim Coconut and Lemon (48 Hour Detox)?",
+            "text": "<p>We recommend drinking Optislim Coconut and Lemon (48 hours detox) 4 times per day in between meals, for the best results consume fruits, vegetables, unsweetened jelly, and clear soups. It is best to avoid processed foods and grains, ensure that you are drinking a minimum of 1-2 litres of water whilst on the detox.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "58e05ed7-0753-440d-a4f7-e1a48eb5fdf1",
+        "ebf646b2-8f65-4a73-8231-984ecd645f25",
+        "cc3e0a47-9801-4f76-b41c-811be51a9e79",
+        "e9e7a88f-2847-4ffe-a830-cfa07a0cb872",
+        "d2361cfa-e314-4c88-9bd5-7d5b27ec1670",
+        "fe1ed208-2840-4573-8a43-a2ad9d6f7b63",
+        "539e8a4a-316f-4bd4-a3f5-8f3a16b3a1d6"
+      ],
+      "settings": {
+        "narrow": true,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Product & Nutrition",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6076380d-8370-4ea0-92da-08553ff95551": {
+      "type": "faq",
+      "blocks": {
+        "deea743e-c0fb-4884-9971-bc5bd44d002b": {
+          "type": "question",
+          "settings": {
+            "title": "How much weight will I lose?",
+            "text": "<p>It’s important to remember that weight loss varies from person to person depending on many factors such as start weight, age, metabolism, if you’re doing exercise, how many meals you’re replacing and if you have any medical conditions.<\/p><p>Generally, when you are on the Optislim meal replacement program, you can expect to lose about 1 kg a week, more or less depending on the above factors.<\/p>"
+          }
+        },
+        "b901405f-53fc-40ac-bc34-121f3c99766d": {
+          "type": "question",
+          "settings": {
+            "title": "How many meals should I replace?",
+            "text": "<p>Our Optislim VLCD range is flexible, there are three phases to choose from to suit your weight loss goals.<\/p><ul><li>Rapid Weight Loss (Replace 3 meals a day)<\/li><li>Steady Weight Loss (Replace 2 meals a day)<\/li><li>Easy Maintenance (Replace 1 meal a day)<\/li><\/ul>"
+          }
+        },
+        "361f3713-cc2d-4c86-bd52-7d1485953ac3": {
+          "type": "question",
+          "settings": {
+            "title": "What other foods can I eat?",
+            "text": "<p>We at Optislim believe that the healthiest way to lose weight is to reduce calorie intake whilst still providing all the vitamins, minerals, proteins and carbohydrates the body needs to function normally. We have a list of recommend food to incorporate whilst on our weight loss program to ensure that you achieve the best results.<\/p>"
+          }
+        },
+        "03c23e20-0e28-448c-b6c3-4ab6bb0a144a": {
+          "type": "question",
+          "settings": {
+            "title": "Can I have snacks?",
+            "text": "<p>Yes of course, the steady weight loss phase includes 1-2 healthy snacks, this also applies if you decide to replace one meal a day. We advise consuming snacks between your meals so that you don’t feel hungry but ensuring that total calories do not exceed the average daily allowance. Snacks are an important part of the program and should be under 100 calories. They not only help regulate metabolism but they assist with feeling hungry therefore, reducing the chances of binge eating.<\/p>"
+          }
+        },
+        "942ef460-ffcb-4912-86cd-09f90978ed42": {
+          "type": "question",
+          "settings": {
+            "title": "Can I have coffee or tea on the program?",
+            "text": "<p>It is okay to have coffee or tea while you are on the program, however, it is important to remember that if you are incorporating it into your diet you are also adding calories so it is best to have it in moderation. Try having no more than 2 a day.<\/p><p><em>There are also few ways that you can reduce the amount of calories in coffee:<\/em><\/p><ul><li>Reducing the amount of sugar and milk that you have<\/li><li>Using skim milk instead of full cream<\/li><li>Using a sweetener such as ‘Equal’ or ‘Sugarine’ instead of sugar<\/li><\/ul>"
+          }
+        },
+        "edc3dbed-fae2-456e-94bb-01c7b4f0c913": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to exercise while on the program?",
+            "text": "<p>No, by following your daily calorie allowance, this provides you’re body with less energy than it needs for its basic function therefore, you will still lose weight even if you don’t exercise. But of course the more exercise you do the more weight you will lose, so you are in full control of the pace of your weight loss.<\/p>"
+          }
+        },
+        "65fa1ab5-22a8-499e-bd36-cee639c76b7c": {
+          "type": "question",
+          "settings": {
+            "title": "What is the recommend water intake?",
+            "text": "<p>It is very important to consume at least 2 litres of water daily, in addition to the water\/skim milk used to prepare the shakes. Adequate fluid intake is extremely important to ensure that the body remains hydrated and that the waste products from the fat burning process are eliminated from the body. To make water more interesting try infusing it with fruit such as lemon, lime, orange or fresh berries.<\/p>"
+          }
+        },
+        "4136c30e-65f7-461b-ba4e-e208a51550d0": {
+          "type": "question",
+          "settings": {
+            "title": "Are the For Her shakes Halal certified?",
+            "text": "<p>Our Optislim For Her Shakes are not Halal certified.<br\/>Please be advised, our Optislim Plant-Based For Her shakes are halal <span style=\"text-decoration:underline\">suitable <\/span>but <span style=\"text-decoration:underline\">not certified<\/span>.<\/p>"
+          }
+        },
+        "c279d0af-88c9-4f23-b821-45a95d2dcd7e": {
+          "type": "question",
+          "settings": {
+            "title": "Is the For Her range suitable for diabetes?",
+            "text": "<p>Yes – If you are a type 2, non-insulin dependent diabetic. However, it is important to maintain regular contact with your doctor during the program as your medication levels may need to be adjusted.<\/p><p>Please note: As an insulin dependent diabetic you would need to consult your doctor to check that this type of diet is appropriate for you.<\/p>"
+          }
+        },
+        "58c04dd6-8794-4f33-a473-86aeee2ff34a": {
+          "type": "question",
+          "settings": {
+            "title": "Are the For Her shakes mixed with water or milk?",
+            "text": "<p>The Optislim For Her shakes and Plant-Based shakes are mixed with water.<br\/>Please see above ‘How to use’ for directions.<\/p>"
+          }
+        },
+        "83438b0a-73b5-4ce8-899f-990842849dc6": {
+          "type": "question",
+          "settings": {
+            "title": "Does the For Her range contain artificial sweeteners?",
+            "text": "<p>The Optislim For Her Shakes contain Sucralose and Stevia.<br\/>Sucralose is a no-calorie, high quality sweetener that is made from sugar and tastes like sugar.<\/p>"
+          }
+        },
+        "9cd09802-b2f4-4147-9292-b05bbd4d7229": {
+          "type": "question",
+          "settings": {
+            "title": "Do the For Her shakes taste like the VLCD shakes?",
+            "text": "<p>Each flavour in our ranges varies in taste as they all contain slightly different ingredients for added benefits.<\/p><p>We strive to produce a product that suits a variety of tastes whilst maintaining its nutritional profile as a meal replacement product. We understand that each person has their own preference in taste, and highly advise you to view our samples list!<\/p>"
+          }
+        },
+        "3f7b0d25-a147-446b-9ce2-3ba4c32fea73": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use the For Her shakes if I have a medical condition or taking medication?",
+            "text": "<p>If you have any medical conditions or are taking any medication we recommend that you seek advice from your healthcare professional so that we can assist you in using the best product for you. Rest assured, the products themselves are safe to use however various factors need to be considered when introducing a new diet.<\/p>"
+          }
+        },
+        "f4a95cd2-05f6-4aad-b860-6c7fa60f1aac": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between VLCD and Platinum?",
+            "text": "<p>Our Optislim VLCD and Optislim VLCD Platinum are formulated as a complete meal replacement meaning that you will receive all your daily nutritional requirements when you use three per day.<\/p><p>Optislim VLCD is mixed with water and the Platinum is mixed with skim milk. The Platinum range also contains additional ingredients to further assist with your weight loss. These include Glucomannan to help keep you fuller, Ginseng to help with your energy levels and Green Coffee Extract to help with fat burning.<\/p>"
+          }
+        },
+        "be4e5c87-988b-41bd-ad16-09c59ea9a506": {
+          "type": "question",
+          "settings": {
+            "title": "Why is it essential to mix Platinum rapid with Skim milk?",
+            "text": "<p>Yes, it is considered to have active ingredients.<\/p><p>Active ingredients are often referred to in either skincare or pharmaceutical products. Active ingredients are ingredients that create a physiological change in the body. For example, a Panadol capsule would contain the active ingredient inside the capsule however, the capsule itself would be ‘inactive’ as it is only the carrier for the medication.<\/p><p>It is important to use skim milk whilst on the Platinum shakes as they are not nutritionally complete without this added ingredient. However, the Platinum shakes can be made up with water, almond or coconut milk as a snack. <span style=\"text-decoration:underline\">Please note: <\/span>when mixing with anything other than milk, it will change the nutrient values depicted on the nutritional panel such as calories and fats, making it difficult to track how much of each nutrient you are having daily.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "deea743e-c0fb-4884-9971-bc5bd44d002b",
+        "b901405f-53fc-40ac-bc34-121f3c99766d",
+        "361f3713-cc2d-4c86-bd52-7d1485953ac3",
+        "03c23e20-0e28-448c-b6c3-4ab6bb0a144a",
+        "942ef460-ffcb-4912-86cd-09f90978ed42",
+        "edc3dbed-fae2-456e-94bb-01c7b4f0c913",
+        "65fa1ab5-22a8-499e-bd36-cee639c76b7c",
+        "4136c30e-65f7-461b-ba4e-e208a51550d0",
+        "c279d0af-88c9-4f23-b821-45a95d2dcd7e",
+        "58c04dd6-8794-4f33-a473-86aeee2ff34a",
+        "83438b0a-73b5-4ce8-899f-990842849dc6",
+        "9cd09802-b2f4-4147-9292-b05bbd4d7229",
+        "3f7b0d25-a147-446b-9ce2-3ba4c32fea73",
+        "f4a95cd2-05f6-4aad-b860-6c7fa60f1aac",
+        "be4e5c87-988b-41bd-ad16-09c59ea9a506"
+      ],
+      "settings": {
+        "narrow": true,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "The Optislim Program",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b5a6f5cd-4696-4d17-89af-559f03ac64a9": {
+      "type": "faq",
+      "blocks": {
+        "99c3845f-0073-4e0d-8b05-2915dfb1fd31": {
+          "type": "question",
+          "settings": {
+            "title": "Why is the consistency so thick?",
+            "text": "<p>Because of the fibres in the shake, it is normal for it to become more viscous over time therefore, it is important to drink it immediately after preparation.<\/p>"
+          }
+        },
+        "a5b74728-37b0-4d5e-8603-6f97bfa93f1e": {
+          "type": "question",
+          "settings": {
+            "title": "How will a shake make me feel full?",
+            "text": "<p>OptiBiome promotes a longer feeling of fullness by gently expanding in the stomach and gelling activity delays gastric emptying.<\/p>"
+          }
+        },
+        "28764eb0-f589-40f0-9ffa-b6a0a2a80038": {
+          "type": "question",
+          "settings": {
+            "title": "I have IBS, is this suitable for me?",
+            "text": "<p>OptiBiome stimulates the growth of positive bacteria in the digestive tract and may even assist with IBS according to a case study.<\/p>"
+          }
+        },
+        "5ec2866b-047d-41b1-bcad-424f80e8385f": {
+          "type": "question",
+          "settings": {
+            "title": "How much weight will I lose?",
+            "text": "<p>Consumer studies show an average weight loss of up to 1.3kgs per week and reduced calorie intake and lower levels of cravings.<\/p>"
+          }
+        },
+        "d71e494a-60a4-4f72-a466-56b470da9ad5": {
+          "type": "question",
+          "settings": {
+            "title": "What are the side effects?",
+            "text": "<p>It is quite normal to experience increased wind\/flatulence as the body adjusts to the extra fibre from the shake and will naturally improve after a few days. We suggest drinking lots of water to assist the breakdown of these fibres. Headaches can also be a normal side effect as your body adjusts to your new diet and lower sugar intakes, this typically lasts a couple of days. If symptoms persist, please seek advice from your Healthcare Professional.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "99c3845f-0073-4e0d-8b05-2915dfb1fd31",
+        "a5b74728-37b0-4d5e-8603-6f97bfa93f1e",
+        "28764eb0-f589-40f0-9ffa-b6a0a2a80038",
+        "5ec2866b-047d-41b1-bcad-424f80e8385f",
+        "d71e494a-60a4-4f72-a466-56b470da9ad5"
+      ],
+      "settings": {
+        "narrow": true,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Optibiome",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text-0": {
+      "type": "rich-text",
+      "blocks": {
+        "rich-text-0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Don't see your question?",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "rich-text-0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Contact one of our customer service team members at <a href=\"mailto:customerservice@optipharm.com.au\">customerservice@optipharm.com.au <\/a>or <a href=\"https:\/\/www.optislim.com.au\/contact-us\/\">call us. <\/a>Monday to Friday between 9am-5pm AEST.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "rich-text-0-0",
+        "rich-text-0-1"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-banner",
+    "faq",
+    "87127297-6a89-4ab7-b642-632ce4c3f926",
+    "2e21c245-3d72-49bb-b83a-71c049fe5ddc",
+    "6076380d-8370-4ea0-92da-08553ff95551",
+    "b5a6f5cd-4696-4d17-89af-559f03ac64a9",
+    "rich-text-0"
+  ]
+}

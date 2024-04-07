@@ -1,0 +1,63 @@
+{
+  "name": "t:sections.footer-group.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "2c6e5d72-f111-41a4-9e70-dc20f5e497ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/optislim-plain.svg",
+            "image_width": 200,
+            "alignment": "left",
+            "link": "",
+            "text": ""
+          }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "shop"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Support",
+            "menu": "support"
+          }
+        }
+      },
+      "block_order": [
+        "2c6e5d72-f111-41a4-9e70-dc20f5e497ec",
+        "footer-0",
+        "footer-1"
+      ],
+      "settings": {
+        "show_divider": true,
+        "newsletter_enable": true,
+        "newsletter_heading": "Exclusive benefits",
+        "newsletter_text": "<p>Apply for our free membership to receive exclusive deals, news, and events.<\/p>",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "social_heading": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "copyright_text": "All rights reserved.",
+        "colors_text": "#ffffff",
+        "colors_heading": "#ffffff",
+        "colors_link": "#ffffff",
+        "colors_border": "#ffffff",
+        "colors_background": "#1a1b18",
+        "gradient_background": ""
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,1118 @@
+{
+  "sections": {
+    "image_banner_aPdpG8": {
+      "type": "image-banner",
+      "blocks": {
+        "button_qHdmMt": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/buy-3-get-1-free-classic-bundle-1",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "button_qHdmMt"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/optislim-3-for-1-desktop.png",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_79DjYF": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a href=\"\/products\/buy-3-get-1-free-classic-bundle-1\"><img style=\"width: 100%;\" class=\"banner-desktop-img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0806\/4391\/6087\/files\/optislim-3-for-1-desktop.png?v=1711598459\"\/>\n<img style=\"width: 100%;\"class=\"banner-mobile-img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0806\/4391\/6087\/files\/optislim-3-for-1-mobile.png?v=1711598459\"\/>\n<\/a>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_YQFQDd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_A47Xaj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Weight Loss & Meal Replacement Shakes Australia",
+            "heading_size": "h1",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A47Xaj"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Uar6Fq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EXTbRR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Risk Free Money Back Guarantee",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_PF88nK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Try Optislim risk free today! Lose weight in 30 days or your money back!<\/strong><\/em><\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EXTbRR",
+        "text_PF88nK"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "best-sellers",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Shop Best Sellers",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "secondary_image_max": 2,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": false,
+        "enable_countdown": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "488c77b9-5347-4abb-9bc3-48f40649727c": {
+      "type": "gallery",
+      "blocks": {
+        "template--21850612203831__488c77b9-5347-4abb-9bc3-48f40649727c-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Front.png",
+            "image_position": "center center",
+            "subheading": "Bundles",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h2",
+            "link": "shopify:\/\/collections\/bundles",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--21850612203831__488c77b9-5347-4abb-9bc3-48f40649727c-image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7254.jpg",
+            "image_position": "center center",
+            "subheading": "VLCD",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h2",
+            "link": "shopify:\/\/collections\/vlcd-very-low-calorie-diet",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--21850612203831__488c77b9-5347-4abb-9bc3-48f40649727c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-16_at_8.42.43_pm.png",
+            "image_position": "center center",
+            "subheading": "For Her",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h2",
+            "link": "shopify:\/\/collections\/optislim-for-her",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--21850612203831__488c77b9-5347-4abb-9bc3-48f40649727c-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MG_1585.jpg",
+            "image_position": "center center",
+            "subheading": "For Him",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h2",
+            "link": "shopify:\/\/collections\/optiman-for-him",
+            "text_box_position": "middle-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21850612203831__488c77b9-5347-4abb-9bc3-48f40649727c-image-3",
+        "template--21850612203831__488c77b9-5347-4abb-9bc3-48f40649727c-image-4",
+        "template--21850612203831__488c77b9-5347-4abb-9bc3-48f40649727c-image-1",
+        "template--21850612203831__488c77b9-5347-4abb-9bc3-48f40649727c-image-2"
+      ],
+      "custom_css": [
+        ".overlay-text__subheading {font-size: 2rem;}",
+        ".overlay-text__heading {border-radius: 0.8rem;}"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 10,
+        "image_height": 450,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Shop By Category",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "mobile_image_height": 270,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "cta_text": "Shop all Categories",
+        "cta_link": "shopify:\/\/collections"
+      }
+    },
+    "rich_text_DyQiTK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3hWUrd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Thousands of Aussies Losing Weight & Keeping It Off!",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3hWUrd"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "170301318306db5fb2": {
+      "type": "apps",
+      "blocks": {
+        "1bc4684e-c32e-4ad9-aced-bfe8f1c320fd": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#db0032",
+            "review_type": "company, product",
+            "reviews_shown": 20,
+            "header_bg_colour": "#000000",
+            "header_colour": "#ffffff",
+            "header_star_colour": "#db0032",
+            "heading_text_colour": "#0e1311",
+            "heading_font": "helvetica_n4",
+            "body_text_colour": "#0e1311",
+            "badge_icon_colour": "#0e1311",
+            "badge_text_colour": "#0e1311",
+            "bg_start_colour": "#ffffff",
+            "bg_end_colour": "#ffffff",
+            "item_border_width": "0px",
+            "item_border_colour": "#000000",
+            "item_border_radius": "0px",
+            "item_shadow_size": "10px",
+            "item_shadow_colour": "#000000",
+            "enable_rich_snippets": false,
+            "disable_same_customer": false,
+            "logo_colour": "var(--logo-inverted)"
+          }
+        },
+        "79768d5c-b48d-4315-b649-2d60fd5a561d": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-ugc\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": "",
+            "is_product_specific": false,
+            "vertical_spacing": 10,
+            "horizontal_spacing": 10
+          }
+        },
+        "e3194165-23f7-48db-b877-0316f05d075d": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        },
+        "b6c9cfb7-4b63-447b-aa4f-584f94272806": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-nuggets\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": "",
+            "is_product_specific": true,
+            "tags": "",
+            "branch": ""
+          }
+        }
+      },
+      "block_order": [
+        "1bc4684e-c32e-4ad9-aced-bfe8f1c320fd",
+        "79768d5c-b48d-4315-b649-2d60fd5a561d",
+        "e3194165-23f7-48db-b877-0316f05d075d",
+        "b6c9cfb7-4b63-447b-aa4f-584f94272806"
+      ],
+      "settings": {
+        "include_margins": false,
+        "show_divider": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3b3cb4c8-5268-4456-a568-697b73ab9564": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Up8cb9": {
+          "type": "heading",
+          "settings": {
+            "heading": "As Featured In",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Up8cb9"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "scrolling-promotion": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/livestrong-com-logo-vector.png",
+            "height": 200,
+            "link": ""
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7NEWS_Logo_RED_RGB.png",
+            "height": 68,
+            "link": ""
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2560px-9news-logo_svg.png",
+            "height": 48,
+            "link": ""
+          }
+        },
+        "image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Womans-day-magazine-logo.webp",
+            "height": 76,
+            "link": ""
+          }
+        },
+        "image-5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-print.png",
+            "height": 56,
+            "link": ""
+          }
+        },
+        "8eeffc0e-fdb8-45df-b994-0c38b11b8df7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-9.png",
+            "height": 88,
+            "link": ""
+          }
+        },
+        "6fe90a46-99aa-4f6e-b5d7-b5f0f83f140d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_1.png",
+            "height": 72,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "image-1",
+        "image-3",
+        "image-4",
+        "image-5",
+        "8eeffc0e-fdb8-45df-b994-0c38b11b8df7",
+        "6fe90a46-99aa-4f6e-b5d7-b5f0f83f140d"
+      ],
+      "settings": {
+        "direction": "right",
+        "speed": 1.8,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_dVDk6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KncV84": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Choose Optislim?",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_a3tnpT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Clinically Proven Weight Loss: <\/strong>Programs and products developed by nutrition experts over 25 years<\/p><p><strong>Money Back Guarantee:<\/strong> Lose weight in 30 days or your money back<\/p><p><strong>Affordable and Convenient:<\/strong> Starting from $1.42 per meal. Perfect for on-the-go lifestyles<\/p><p><strong>Support and Motivation:<\/strong> Available through phone, email, and our Optislim Club Community. Designed to assist you on your weight loss journey<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KncV84",
+        "text_a3tnpT"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_8fAnEe": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_JgUJjy": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/cart.svg",
+            "title": "SCIENTIFICALLY PROVEN WEIGHT LOSS",
+            "title_size": "h3",
+            "text": "<p>Programs and products developed by nutrition experts over 25 years<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_pDxdNT": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/cart.svg",
+            "title": "MONEY BACK GAURANTEE",
+            "title_size": "h3",
+            "text": "<p>Lose weight in 30 days or your money back<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_t3a3Et": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/cart.svg",
+            "title": "AFFORDABLE AND CONVINIENT",
+            "title_size": "h3",
+            "text": "<p>Starting from $1.42 per meal. Perfect for on-the-go lifestyles<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_38ajck": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/cart.svg",
+            "title": "SUPPORT AND MOTIVATION",
+            "title_size": "h3",
+            "text": "<p>Available through phone, email, and our Optislim Club Community. Designed to assist you on your weight loss journey<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "column_JgUJjy",
+        "column_pDxdNT",
+        "column_t3a3Et",
+        "column_38ajck"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "image_width": "full",
+        "columns_desktop": 4,
+        "heading": "Why Optislim?",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "cta_text": "SHOP ALL",
+        "cta_link": "#",
+        "cta_text_secondary": "Shop low-calorie diet",
+        "cta_link_secondary": "#",
+        "btn_byLiner": "Free shipping on order over $75"
+      }
+    },
+    "604ba082-556d-4492-81a0-3b274dc7376a": {
+      "type": "image-with-text",
+      "blocks": {
+        "6f06866b-4c7b-4456-9d32-8f91c6d1711f": {
+          "type": "heading",
+          "settings": {
+            "heading": "VLCD Program: How It Works",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "f9e8e71a-28ff-45a1-952a-9458e7866ebf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>FAST WEIGHT LOSS: <\/strong>Designed for intense & effective weight loss. <\/p><p><strong>SHAKES, BARS & SOUPS:<\/strong> 3 delicious meal replacement options to choose from for variety. You can mix & match each day.<\/p><p><strong>MEAL REPLACEMENTS & SNACKS:<\/strong> 3x VLCD meal replacements, 2x snacks & 2L water per day.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "53d5ebc0-87cc-4dd8-bd45-67fa0305464a": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/vlcd-program",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "6f06866b-4c7b-4456-9d32-8f91c6d1711f",
+        "f9e8e71a-28ff-45a1-952a-9458e7866ebf",
+        "53d5ebc0-87cc-4dd8-bd45-67fa0305464a"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AdobeStock_459640868_1-min.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "center",
+        "image_ratio": "450px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ef330f90-3ee5-4968-b398-eb96cf993aae": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "vlcd-very-low-calorie-diet",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Shop VLCD Range",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "4d301aa9-afab-434b-80c7-e4ccf7780090": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21850612203831__4d301aa9-afab-434b-80c7-e4ccf7780090-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "LCD Program: How It Works",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--21850612203831__4d301aa9-afab-434b-80c7-e4ccf7780090-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BALANCED WEIGHT LOSS:<\/strong> Designed for fast & healthy weight loss.<\/p><p><strong>SHAKES & SNACKS:<\/strong> 2x shakes, 2x snacks and 1x regular meal per day. <\/p><p><strong>HAVE A BEER OR WINE: <\/strong>Still enjoy your glass of wine or a beer!<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--21850612203831__4d301aa9-afab-434b-80c7-e4ccf7780090-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/lcd-program",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21850612203831__4d301aa9-afab-434b-80c7-e4ccf7780090-heading-1",
+        "template--21850612203831__4d301aa9-afab-434b-80c7-e4ccf7780090-text-1",
+        "template--21850612203831__4d301aa9-afab-434b-80c7-e4ccf7780090-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/exP3gMgZ.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "center",
+        "image_ratio": "450px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "a05e6cfb-3653-448d-83f2-0afb1e801727": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "lcd-low-calorie-diet",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Shop LCD Range",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_DEHqLD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Mbtcz3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Julie's Story",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_NWHBhh": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>“I’m feeling fantastic! I have my life back again!”<\/strong><\/p><p>Julie made the decision to make a change. Starting on the rapid weight loss program for the first three months then moving to the steady weight loss phase, she successfully dropped 53kgs over 9 months.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_tLjFDA": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/shopall",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mbtcz3",
+        "text_NWHBhh",
+        "button_tLjFDA"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Julie_440cbfd6-ac41-44f9-9c45-bc360fd10952.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_zxLkyT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bBbdhw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tyson's Story",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_Rd78He": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>“I now fit into my sons medium sized, T-shirt!”<\/strong><\/p><p>With a diagnosis of type 1 diabetes and after trying all types of diets, Tyson was contemplating weight loss surgery. He found himself becoming less active with his children. Luckily, he discovered Optislim which changed his life! <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_AyaT3N": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bBbdhw",
+        "text_Rd78He",
+        "button_AyaT3N"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tyson_a4a2408f-f789-4d82-8940-35cef335aa23.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_pK7yRe": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3QgiXC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to Optislim, Aussie's #1 health & wellness brand and the ultimate destination for fast, effective weight loss solutions. Say goodbye to crash diets and gym hours. Our shakes, bars & soups start at $1.47 per meal and help shed extra kilos, keeping you satisfied and energised. <br\/><br\/>Simply replace 1, 2 or even 3 meals per day with a shake, bar or soups. You can even mix and match for variety.<br\/><br\/>With 25+ years of proven success! Join hundreds of thousands of satisfied customers who achieved their weight loss goals with Optislim. Try it for yourself and start your journey to a healthier, happier you. Shop our products and transform today.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "text_3QgiXC"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4cd8cc24-b76f-46ad-a741-2788b66eb0c5": {
+      "type": "image-banner",
+      "blocks": {
+        "133a6c5a-033e-424e-a351-f62eef549d8f": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Buy 3 & get one free",
+            "subheading_size": "h3",
+            "secondary_color": false
+          }
+        },
+        "6408284b-b1a4-41fc-9202-694e08f92c2f": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "c43bd802-1c24-483c-a4d8-0b3a6cff6887": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/bundles",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "133a6c5a-033e-424e-a351-f62eef549d8f",
+        "6408284b-b1a4-41fc-9202-694e08f92c2f",
+        "c43bd802-1c24-483c-a4d8-0b3a6cff6887"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/him.png",
+        "image_2": "shopify:\/\/shop_images\/her.png",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#1a1b18",
+        "colors_overlay_opacity": 24,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "bea14c6b-1694-4d14-8f9f-663e12ef002e": {
+      "type": "slideshow",
+      "blocks": {
+        "02465248-91c4-42b1-9fb3-f6a97247a281": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Top.png",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h3",
+            "heading": "SAVE 30% ON YOUR FIRST SHIPMENT",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Gain exclusive benefits! Save 30% on your first subscription order and enjoy up to 25% off plus free shipping on recurring orders. Elevate your weight loss journey now!",
+            "text_size": "typeset2",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/faqs",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "02465248-91c4-42b1-9fb3-f6a97247a281"
+      ],
+      "disabled": true,
+      "settings": {
+        "slideshow_type": "legacy",
+        "text_alignment": "left",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "400px",
+        "show_text_below": false,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#1a1b18",
+        "colors_overlay_opacity": 40,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#d72c0d",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_HKUbYE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4dyDjd": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Effectiveness of Meal Replacement Products for Weight loss",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_8dtCh8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Studies have shown that meal replacement products can be a very effective way to support weight loss. In a 12-week study published in the International Journal of Obesity, participants who used meal replacements lost significantly more weight than those who followed a standard reduced-calorie diet. Additionally, a systematic review of 23 studies found that meal replacements were a more effective way to achieve weight loss than conventional diet plans.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4dyDjd",
+        "text_8dtCh8"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1703014367bbc00bf1": {
+      "type": "apps",
+      "blocks": {
+        "70c92f6f-2d7a-404a-90b5-4a6f9abe7781": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "70c92f6f-2d7a-404a-90b5-4a6f9abe7781"
+      ],
+      "settings": {
+        "include_margins": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_banner_aPdpG8",
+    "custom_liquid_79DjYF",
+    "rich_text_YQFQDd",
+    "rich_text_Uar6Fq",
+    "featured-collection",
+    "488c77b9-5347-4abb-9bc3-48f40649727c",
+    "rich_text_DyQiTK",
+    "170301318306db5fb2",
+    "3b3cb4c8-5268-4456-a568-697b73ab9564",
+    "scrolling-promotion",
+    "rich_text_dVDk6A",
+    "multicolumn_8fAnEe",
+    "604ba082-556d-4492-81a0-3b274dc7376a",
+    "ef330f90-3ee5-4968-b398-eb96cf993aae",
+    "4d301aa9-afab-434b-80c7-e4ccf7780090",
+    "a05e6cfb-3653-448d-83f2-0afb1e801727",
+    "image_with_text_DEHqLD",
+    "image_with_text_zxLkyT",
+    "rich_text_pK7yRe",
+    "4cd8cc24-b76f-46ad-a741-2788b66eb0c5",
+    "bea14c6b-1694-4d14-8f9f-663e12ef002e",
+    "rich_text_HKUbYE",
+    "1703014367bbc00bf1"
+  ]
+}
